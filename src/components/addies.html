@@ -1,0 +1,58 @@
+<section className="cart-wrapper home-wrapper-2 py-5">
+  <div className="container-xxl">
+    <div className="row">
+      <div className="col-12">
+        <div
+          className="cart-header d-flex justify-content-center align-items-center"
+        >
+          <h4>Product</h4>
+          <h4>Price</h4>
+          <h4>Quantity</h4>
+          <h4>Total</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div className="px-4 my-5 bg-light rounded-3" key={cartItem.id}>
+  <div className="container py-4">
+    <button
+      onClick={() => handleClose(cartItem)}
+      className="btn-close float-end"
+      aria-label="Close"
+    ></button>
+    <div className="row justify-content-center">
+      <div className="col-md-4">
+        <img
+          src={cartItem.img}
+          alt={cartItem.title}
+          height="200px"
+          width="180px"
+        />
+      </div>
+      <div className="col-md-4">
+        <h3>{cartItem.title}</h3>
+        <p className="lead fw-bold">${cartItem.price}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="cart-col-4">
+  <li className="list-group-item d-flex justify-content-between">
+    <strong>${total}</strong>
+  </li>
+</div>

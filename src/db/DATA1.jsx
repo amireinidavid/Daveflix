@@ -1,0 +1,77 @@
+const DATA1 = [
+  {
+    id: 0,
+    title: "IPhone 11",
+    comp: "Havels",
+    price: 750.0,
+    price2: 850,
+    desc: " Lorem Ipsum is not simply random text.",
+    img: "/images/headphone.jpg",
+    img1: "/images/tab1.jpg",
+  },
+  {
+    id: 1,
+    title: "IPhone 11 Pro Max",
+    comp: "Havels",
+    price: 800.0,
+    price2: 900,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/tab.jpg ",
+    img1: "/images/iphone12promax.png",
+  },
+  {
+    id: 2,
+    title: "IPhone 12 Mini",
+    comp: "Havels",
+    price: 950.0,
+    price2: 1050,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/watch.jpg",
+    img1: "/images/iphone12mini.png",
+  },
+
+  {
+    id: 3,
+    title: "IPhone 12 Mini",
+    comp: "Havels",
+    price: 950.0,
+    price2: 1050,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/watch.jpg",
+    img1: "/images/iphone12mini.png",
+  },
+
+  {
+    id: 4,
+    title: "IPhone 12 Mini",
+    comp: "Havels",
+    price: 950.0,
+    price2: 1050,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/watch.jpg",
+    img1: "/images/iphone12mini.png",
+  },
+
+  {
+    id: 5,
+    title: "IPhone 12 Mini",
+    comp: "Havels",
+    price: 950.0,
+    price2: 1050,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/watch.jpg",
+    img1: "/images/iphone12mini.png",
+  },
+  {
+    id: 6,
+    title: "IPhone 12 Mini pro max",
+    comp: "Havels",
+    price: 9501.0,
+    price2: 1050,
+    desc: "Lorem Ipsum is not simply random text.",
+    img: "/images/laptop.jpg",
+    img1: "/images/iphone12mini.png",
+  },
+];
+
+export default DATA1;
